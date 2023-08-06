@@ -12,7 +12,8 @@ export class SignalRAspNetCoreHelper {
             qs: AppConsts.authorization.encryptedAuthTokenName + '=' + encodeURIComponent(encryptedAuthToken),
             remoteServiceBaseUrl: AppConsts.remoteServiceBaseUrl,
             startConnection: undefined,
-            url: '/signalr'
+            url: '/signalr',
+            withUrlOptions: null
         };
 
         const script = document.createElement('script');

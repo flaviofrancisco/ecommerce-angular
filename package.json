@@ -49,6 +49,7 @@
     "@types/lodash-es": "^4.17.6",
     "@types/moment-timezone": "^0.5.30",
     "@types/node": "^18.11.15",
+    "ajv": "^7.2.4",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~4.5.0",
     "jasmine-spec-reporter": "~7.0.0",
