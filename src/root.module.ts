@@ -31,7 +31,7 @@ export function getCurrentLanguage(): string {
 @NgModule({
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule,    
     HttpClientModule,
     SharedModule.forRoot(),
     ModalModule.forRoot(),

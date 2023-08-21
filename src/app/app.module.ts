@@ -40,6 +40,10 @@ import { SidebarUserPanelComponent } from './layout/sidebar-user-panel.component
 import { SidebarMenuComponent } from './layout/sidebar-menu.component';
 import { ProductsComponent } from './products/products.component';
 
+//PrimeNG Modules
+import { TableModule } from 'primeng/table';
+import { PaginatorModule } from 'primeng/paginator';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -84,8 +88,12 @@ import { ProductsComponent } from './products/products.component';
         AppRoutingModule,
         ServiceProxyModule,
         SharedModule,
-        NgxPaginationModule,
+        NgxPaginationModule,            
+        // PrimeNG Modules
+        TableModule,    
+        PaginatorModule 
     ],
     providers: []
 })
+
 export class AppModule {}
